@@ -17,6 +17,7 @@ public class lab04_ex {
         System.out.println(result);
         System.out.println(result2);
         System.out.println(result3);
+        sum_of_two_num();
     }
     static int sum_of_two_num(int a,int b){
         return a+b;

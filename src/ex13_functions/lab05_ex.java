@@ -11,15 +11,15 @@ public class lab05_ex {
 
 
         // 1.Without Argument / Parameters and Without Return Type.
-        wop_wor_greet();
+        without_parameter_without_return_greet();
 
         //  2. Without Parameters but With Return Type
-        String msg = wop_wr_greet_2();
+        String msg =without_parameter_with_return_greet_2();
         System.out.println(msg);
 
 
         //  3. With Parameters and Without Return Type ( 90%)
-        greet_with_details("Pramod", 65, 100);
+        greet_with_details("shra", 65, 100);
         greet_with_details("Ankit", 100, 120);
 
 
@@ -39,13 +39,13 @@ public class lab05_ex {
     }
     // 1. Without Parameters and Without Return Type. (Declare) /Define
 
-    static void wop_wor_greet() {
+    static void without_parameter_without_return_greet() {
         System.out.println("Hi, Type 1 Function!");
         System.out.println("Hi,there!!");
     }
 
     //  2. Without Parameters but With Return Type
-    static String wop_wr_greet_2() {
+    static String without_parameter_with_return_greet_2() {
         System.out.println("Hi, Type 2 Function!");
         return "Mansoor";
     }

@@ -2,7 +2,7 @@ package ex12_Do_while;
 
 public class lab02_ex {
     public static void main(String[]args){
-        int a=0;
+        int a=1;
        /*while(a<10){
             System.out.println(a);
             a++;

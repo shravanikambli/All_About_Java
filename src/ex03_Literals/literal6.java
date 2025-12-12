@@ -34,8 +34,5 @@ public class literal6 {
         System.out.println(my_laugh_smily);
 
 
-
-
-
     }
 }

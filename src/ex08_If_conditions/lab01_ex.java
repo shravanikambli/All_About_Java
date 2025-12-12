@@ -13,6 +13,6 @@ public class lab01_ex
             System.out.println("Yes");
         }
         else{
-            System.out.println("You cant vote");
+            System.out.println("You cannot vote");
         }
 }}
